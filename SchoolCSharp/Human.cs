@@ -10,7 +10,7 @@ public abstract class Human
     protected string Address{set;get;}
 
 
-    public void Print()
+    public virtual void Print()
     {
         Console.WriteLine("I am a human");
     }

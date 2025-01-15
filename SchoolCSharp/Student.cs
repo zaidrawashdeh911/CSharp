@@ -29,9 +29,19 @@ public class Student: Human
         
     }
     
-    public void Print()
+    public override void Print()
     {
         Console.WriteLine("Name:" + this.Name + " Courses= " + this.Courses+" id: " + StudentId);
+    }
+
+    public void PrintName()
+    {
+        Console.WriteLine(" The Student: " + this.Name);
+    }
+
+    public virtual void ExamType()
+    {
+        Console.WriteLine("The Student takes a random exam type");
     }
     
 }
